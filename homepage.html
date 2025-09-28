@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Valorant Website</title>
+</head>
+<style>
+    body {
+        background-image: url(./Image/Background.gif) ;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        height: 100%;
+        margin: 0;
+        background-attachment: fixed;
+    }
+
+    nav {
+        background-color: #212121;
+        padding: 25px 35px;
+        display: flex;
+        align-items: center;
+    }
+
+    nav a {
+        color: red;
+        font-size: 25px;
+        margin-right: 35px;
+    }
+
+    nav .right {
+        margin-left: auto;
+    }
+
+    nav a:hover {
+        color: white;
+        text-decoration: none;
+    }
+
+    .banner {
+        position: relative;
+        text-align: center;
+        color: #FFFDF6;
+        margin-top: 250px;
+    }
+    
+    .banner h1 {
+        font-size: 70px;
+        margin-bottom: 10px;
+    }
+
+    .PFF {
+        background-color: red;
+        color: #FFFDF6;
+        padding: 20px 25px;
+        border-radius: 15px;
+        text-decoration: none;
+    }
+
+    .PFF:hover {
+        background-color: darkred;
+    }
+
+    .about {
+        background-color: #212121;
+        padding: 20px 10px;
+        display: flex;
+        justify-content: space-around;
+        margin-top: 237px;
+        color: #FFFDF6;
+    }
+
+    .about h3 {
+        margin-bottom: 10px;
+        font-size: 25px;
+        color: red;
+    }
+
+
+    @media (max-width: 768px) {
+        nav {
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        nav a {
+            font-size: 18px;
+            margin: 10px;
+        }
+        .banner {
+            margin-top: 100px;
+            padding: 0 15px;
+        }
+        .banner h1 {
+            font-size: 40px;
+        }
+        .banner h2 {
+            font-size: 18px;
+        }
+        .about {
+            flex-direction: column;
+            text-align: center;
+            gap: 20px;
+            margin-top: 100px;
+        }
+        .about h3 {
+            font-size: 20px;
+        }
+        .about p {
+            font-size: 16px;
+        }
+    }
+</style>
+<body>
+    
+
+    <!-- NAVIGATION -->
+    <nav>
+        <a href="valorant.html">HOME</a>
+        <a href="AGENTS2.html">AGENTS</a>
+        <a href="AMaps.html">MAPS</a>
+        <a href="AWeapon.html">WEAPONS</a>
+        <a href="AStrategies.html">STRATEGIES</a>
+        <a href="Contact.html">CONTACT US</a>
+        <a href="https://playvalorant.com/en-us/platform-selection/" class="right">PLAY NOW</a>
+    </nav>
+
+    <!-- WELCOMER BANNER -->
+     <section class="banner">
+        <div class="Welcomer Banner">
+            <h1>VALORANT</h1>
+            <h2>A 5v5 Tactical shooter featuring agents with unique abilities</h2>
+            <br>
+            <a href="#" class="PFF">PLAY FOR FREE</a>
+        </div>
+     </section>
+
+     <!-- ABOUT US -->
+      <section class="about">
+        <div>
+            <h3>SHORT OVERVIEW</h3>
+            <p>Valorant is a free-to-play tactical first-person shooter (FPS) <br> developed and published by Riot Games. 
+                Released in June <br> 2020, it blends precise gunplay with unique character <br> abilities, 
+                similar to a mix of Counter-Strike and Overwatch.</p>
+        </div>
+        <div>
+            <h3>My Website Offer</h3>
+            <p>My website can give you tips and tricks to be better on Valorant.</p>  
+        </div>
+      </section>
+
+</body>
+</html>
